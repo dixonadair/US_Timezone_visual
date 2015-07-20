@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ParseApp</title>
+  <%= include_gon %>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+  <!-- Google Maps script -->
+  <script type="text/javascript"
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgUT0t3K3y9cKJgITa8X1O7uGYjguNZT4">
+  </script>
+
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
